@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "composite": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noEmitOnError": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowUmdGlobalAccess": true,
+        "incremental": true,
+        "removeComments": true,
+        "newLine": "lf"
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules",
+        "**/*.spec.ts",
+        "__tests__"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "*.{ts,tsx}": [
+    "sh -c \"yarn tsc --noEmit\"",
+    "lint-fix",
+    "git add"
+  ],
+  "*.{js,jsx}": [
+    "lint-fix",
+    "git add"
+  ]
+}
